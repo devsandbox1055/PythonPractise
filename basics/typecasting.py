@@ -1,3 +1,6 @@
+'''Typecasting ka matlab: 
+ek data type ko dusre data type mein convert karna.'''
+
 num_str = "100"
 num_int = int(num_str)
 
@@ -10,3 +13,9 @@ b = float(a)
 
 print(b)
 print(type(b))
+
+price = 99.99
+new_price = int(price)
+
+print(new_price)
+print(type(new_price))
